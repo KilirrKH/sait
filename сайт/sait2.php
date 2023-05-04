@@ -52,7 +52,7 @@
 
 
     <!--  Модаль-блок редактора -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
     aria-labelledby="exampleModal" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -81,23 +81,7 @@
           <!--  Модаль-футер  -->      
           <div class="modal-footer" >
             <button class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-            <button class="btn btn-primary" id="addBtn" >Создать</button>
-            <script>
-              // Находим кнопку "Создать" и добавляем обработчик события на нажатие
-              document.getElementById("addBtn").addEventListener("click", function(event){
-                // Отменяем стандартное действие формы, чтобы страница не перезагружалась
-                event.preventDefault();
-                
-                // Получаем данные из формы
-                var form = document.getElementById("my-form");
-                var formData = new FormData(form);
-                
-                // Отправляем данные на сервер
-                var xhr = new XMLHttpRequest();
-                xhr.open("POST", "process_form.php"); // Укажите путь к обработчику на сервере
-                xhr.send(formData);
-              });
-            </script>
+            <button class="btn btn-primary" id="myBtn" >Создать</button>
           </div>
         </div>
       </div>
@@ -176,5 +160,28 @@
 
     <script src="js/bootstrap.bundle.min.js" ></script>
     <script src="sait.js"></script>
+    <script>
+    $(document).ready(function() {
+        $("#myBtn").click(function() {
+            $("#myModal").modal();
+        });
+    });
+    </script> 
+    <script>
+        // Находим кнопку "Создать" и добавляем обработчик события на нажатие
+        document.getElementById("addBtn").addEventListener("click", function(event){
+        // Отменяем стандартное действие формы, чтобы страница не перезагружалась
+        event.preventDefault();
+        
+        // Получаем данные из формы
+        var form = document.getElementById("my-form");
+        var formData = new FormData(form);
+        
+        // Отправляем данные на сервер
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "process_form.php"); // Укажите путь к обработчику на сервере
+        xhr.send(formData);
+      });
+    </script>
   </body>
 </html>
