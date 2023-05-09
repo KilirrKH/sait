@@ -568,3 +568,110 @@ Route_id INTEGER,
 Crew_id INTEGER
 
 INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES();
+
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) 
+VALUES 
+('Flight1', '2022-10-10 10:00:00', '2022-10-10 12:00:00', 20, 100, 1, ),
+
+
+
+
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (1, '2023-08-08 23:09:24', '2023-08-09 02:09:24', 44, 193, 1, 15);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (2, '2024-01-20 23:09:24', '2024-01-21 02:09:24', 25, 155, 2, 11);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (3, '2023-10-03 23:09:24', '2023-10-04 01:09:24', 25, 180, 3, 8);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (4, '2024-03-03 23:09:24', '2024-03-04 05:09:24', 37, 179, 4, 12);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (5, '2023-05-16 23:09:24', '2023-05-17 03:09:24', 46, 115, 5, 1);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (6, '2023-09-29 23:09:24', '2023-09-30 04:09:24', 30, 165, 6, 6);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (7, '2023-06-04 23:09:24', '2023-06-05 05:09:24', 11, 61, 7, 8);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (8, '2023-10-02 23:09:24', '2023-10-03 00:09:24', 18, 110, 8, 12);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (9, '2024-03-12 23:09:24', '2024-03-13 03:09:24', 23, 94, 9, 7);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (10, '2024-01-17 23:09:24', '2024-01-18 
+01:09:24', 11, 120, 10, 14);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (11, '2024-04-03 23:09:24', '2024-04-04 
+06:09:24', 25, 65, 11, 1);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (12, '2024-05-05 23:09:24', '2024-05-06 
+06:09:24', 25, 158, 12, 10);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (13, '2023-09-19 23:09:24', '2023-09-20 
+01:09:24', 15, 150, 13, 8);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (14, '2023-10-11 23:09:24', '2023-10-12 
+02:09:24', 30, 157, 14, 14);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (15, '2024-02-12 23:09:24', '2024-02-13 
+04:09:24', 28, 122, 15, 4);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (16, '2023-05-30 23:09:24', '2023-05-31 
+04:09:24', 16, 182, 16, 13);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (17, '2023-12-29 23:09:24', '2023-12-30 
+05:09:24', 10, 89, 17, 14);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (18, '2023-08-06 23:09:24', '2023-08-07 
+00:09:24', 31, 124, 18, 2);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (19, '2024-04-09 23:09:24', '2024-04-10 
+07:09:24', 37, 82, 19, 14);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (20, '2024-04-01 23:09:24', '2024-04-02 
+05:09:24', 19, 102, 20, 7);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (21, '2023-06-10 23:09:24', '2023-06-11 
+01:09:24', 24, 65, 21, 13);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (22, '2024-03-20 23:09:24', '2024-03-21 
+05:09:24', 11, 59, 22, 5);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (23, '2023-08-28 23:09:24', '2023-08-29 
+00:09:24', 50, 160, 23, 13);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (24, '2023-07-06 23:09:24', '2023-07-07 
+06:09:24', 16, 107, 24, 15);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (25, '2024-03-25 23:09:24', '2024-03-26 
+04:09:24', 21, 153, 25, 8);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (26, '2023-12-20 23:09:24', '2023-12-21 
+06:09:24', 40, 72, 26, 13);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (27, '2023-05-15 23:09:24', '2023-05-16 
+03:09:24', 28, 151, 27, 7);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (28, '2023-08-08 23:09:24', '2023-08-09 
+01:09:24', 23, 172, 28, 5);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (29, '2023-12-14 23:09:24', '2023-12-15 
+05:09:24', 46, 71, 29, 10);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (30, '2023-10-26 23:09:24', '2023-10-27 
+02:09:24', 15, 197, 30, 8);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (31, '2023-08-27 23:09:24', '2023-08-28 
+03:09:24', 40, 148, 31, 12);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (32, '2023-07-07 23:09:24', '2023-07-08 
+01:09:24', 50, 166, 32, 11);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (33, '2024-02-29 23:09:24', '2024-03-01 
+04:09:24', 42, 114, 33, 7);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (34, '2023-11-06 23:09:24', '2023-11-07 
+01:09:24', 11, 146, 34, 6);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (35, '2023-09-30 23:09:24', '2023-10-01 
+05:09:24', 17, 166, 35, 3);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (36, '2023-08-30 23:09:24', '2023-08-31 
+03:09:24', 33, 170, 36, 3);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (37, '2024-05-08 23:09:24', '2024-05-09 
+00:09:24', 18, 111, 37, 15);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (38, '2024-03-21 23:09:24', '2024-03-22 
+04:09:24', 21, 72, 38, 1);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (39, '2023-09-28 23:09:24', '2023-09-29 
+05:09:24', 50, 189, 39, 3);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (40, '2024-02-12 23:09:24', '2024-02-13 
+03:09:24', 49, 135, 40, 12);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (41, '2023-07-20 23:09:24', '2023-07-21 
+04:09:24', 12, 121, 41, 5);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (42, '2023-05-30 23:09:24', '2023-05-31 
+03:09:24', 19, 119, 42, 6);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (43, '2023-10-10 23:09:24', '2023-10-11 
+04:09:24', 23, 93, 43, 10);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (44, '2024-01-30 23:09:24', '2024-01-31 
+05:09:24', 15, 91, 44, 4);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (45, '2023-10-01 23:09:24', '2023-10-02 
+01:09:24', 40, 173, 45, 3);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (46, '2023-05-21 23:09:24', '2023-05-22 
+02:09:24', 14, 82, 46, 11);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (47, '2024-04-02 23:09:24', '2024-04-03 
+07:09:24', 35, 64, 47, 7);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (48, '2024-02-02 23:09:24', '2024-02-03 
+00:09:24', 14, 163, 48, 5);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (49, '2023-10-14 23:09:24', '2023-10-15 
+01:09:24', 46, 54, 49, 1);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (50, '2024-04-07 23:09:24', '2024-04-08 
+01:09:24', 48, 97, 50, 10);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (51, '2023-06-08 23:09:24', '2023-06-09 
+07:09:24', 48, 77, 51, 3);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (52, '2024-02-05 23:09:24', '2024-02-06 
+05:09:24', 24, 106, 52, 14);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (53, '2023-07-08 23:09:24', '2023-07-09 
+04:09:24', 47, 146, 53, 5);
+INSERT INTO A_Flights (Flight_id, DepartureDate, ArrivalDate, ActualBusiness, ActualEconomic, Route_id, Crew_id) VALUES (54, '2023-11-28 23:09:24', '2023-11-29 
+02:09:24', 12, 179, 54, 8);
