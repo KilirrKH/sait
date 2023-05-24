@@ -1,0 +1,8 @@
+﻿  PrefixFunc.cpp
+C:\Users\nvhom\source\repos\Ex6\PrefixFunc\PF.h(37,18): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\nvhom\source\repos\Ex6\PrefixFunc\PrefixFunc.cpp(26,69): warning C4244: аргумент: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+  PrefixFunc.vcxproj -> C:\Users\nvhom\source\repos\Ex6\x64\Debug\PrefixFunc.exe
